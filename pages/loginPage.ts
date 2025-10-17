@@ -24,7 +24,7 @@ export class LoginPage {
     }
 
     async navigateTo() {
-        await this.page.goto(`${baseUrl}`);
+        await this.page.goto('/');
     }
 
     async clickJobSeeker(){
