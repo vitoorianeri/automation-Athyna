@@ -1,9 +1,8 @@
 import { config } from 'dotenv';
-import { expect, type Locator, type Page } from '@playwright/test';
+import { type Locator, type Page } from '@playwright/test';
 
 config();
 
-const baseUrl = process.env.BASE_URL;
 const email = process.env.EMAIL;
 const password = process.env.PASSWORD;
 
